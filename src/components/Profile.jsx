@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Profile.css'
 
 const Profile = () => {
     return (
@@ -14,7 +15,7 @@ const Profile = () => {
                 </div>
                 <div>
                     <div>
-                        post 1
+                        <a href='#s'>post 1</a>
                     </div>
                     <div>
                         post 2
