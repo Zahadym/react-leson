@@ -2,3 +2,10 @@
     grid-area: c;
     background-color: aquamarine;
 }
+.item {
+    color: brown;
+}
+.link {
+    text-decoration: none;
+    color: crimson;
+}

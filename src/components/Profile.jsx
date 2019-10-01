@@ -1,9 +1,9 @@
 import React from 'react';
-import './Profile.css'
+import css from './Profile.module.css';
 
 const Profile = () => {
     return (
-        <section className='content'>
+        <section className={css.content}>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1k3ORFuqBmvtmEvaDuGXxDtsJyVkDgCkLUr8qyXjyg5bNomLa"/>
             <div>
                 ava + description
@@ -13,12 +13,12 @@ const Profile = () => {
                 <div>
                     New post
                 </div>
-                <div>
-                    <div>
-                        <a href='#s'>post 1</a>
+                <div className={css.posts}>
+                    <div className={css.item}>
+                        <a className={css.link} href='#s'>post 1</a>
                     </div>
-                    <div>
-                        post 2
+                    <div className={css.item}>
+                        <a className={css.link} href='#s'>post 2</a>
                     </div>
                 </div>
             </div>
