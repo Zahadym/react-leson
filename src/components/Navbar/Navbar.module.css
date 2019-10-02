@@ -1,6 +1,7 @@
 .nav {
     grid-area: n;
     background-color: aquamarine;
+    padding: 10px;
 }
 .item {
     text-decoration: none;
