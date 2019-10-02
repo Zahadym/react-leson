@@ -1,0 +1,15 @@
+.block {
+    animation: change-background 1s linear 1;
+}
+
+@keyframes change-background {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}

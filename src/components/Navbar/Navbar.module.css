@@ -6,4 +6,8 @@
 .item {
     text-decoration: none;
     color: brown;
+    transition: all 0.3s linear;
+}
+.active {
+    color: gold;
 }
