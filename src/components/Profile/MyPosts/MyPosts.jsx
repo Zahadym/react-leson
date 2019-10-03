@@ -5,7 +5,7 @@ import Post from "./Post/Post";
 const MyPosts = () => {
     return (
         <div className={css.block}>
-            My posts
+            <h3>My posts</h3>
             <div>
                 <textarea></textarea>
                 <div className={css.btn}>
